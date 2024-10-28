@@ -1,0 +1,41 @@
+.about-company {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+}
+
+.about-company__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 520px;
+    gap: 20px;
+}
+
+.about-company__title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    color: #26AA9A
+}
+
+.about-company__text {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.about-company__text:last-of-type {
+    margin-bottom: 20px;
+}
+
+.about-company__link {
+    border: 2px solid #26AA9A;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+
+    min-width: 180px;
+    padding: 14px;
+}
+
